@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header{
+    background-color: rgb(85, 85, 243);
+    height: 100px; 
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 3px solid black;
+}
+
+main{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.rodape {
+    background-color:  rgb(85, 85, 243); 
+
+    width: 100%; 
+    border-top: 3px solid black;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    
+}
+#lot{
+    color: black;
+}
+#let{
+    color: black;
+}
